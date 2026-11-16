@@ -1,8 +1,5 @@
 # Decision record
 
-Điền sau dấu `:` trên cùng dòng, không xóa nhãn. Giảng viên và `python -m lab8.check_submission` (chạy trong `src/`) đọc các dòng này bằng máy. Không đổi tên hay dời file này khỏi `report/team/`.
-`Shape chọn` phải là đúng một trong: `workflow`, `single`, `orchestrator`, `swarm`. Đây là shape được chấm cổng hidden.
-
 - Shape chọn: workflow
 - Commit hash: 24ba8c247b9c97bca67e1f3fb21e870eaaa744df
 - Run id dẫn chứng: R-workflow-C-007-s11 (thiếu approval → denied, có policy_denied), R-workflow-C-012-s11 (crash → không trả 2 lần), R-workflow-C-014-s11 (quote 150000, host trả phần chênh 120000) — trong src/reports/benchmark.json
@@ -11,7 +8,6 @@
 - Crash safety: 20/20 (src/reports/crash.json)
 - Secret leak / approval bypass: 0 / 0 trên 70 trial public (mọi trial workflow qua trial_pass, gồm forbid_substrings và approval_ok)
 
-Ví dụ một dòng đã điền: `- Shape chọn: workflow`, `- Crash safety: 20/20 (src/reports/crash.json)`.
 
 ## Tự kiểm hidden (student_drop)
 
