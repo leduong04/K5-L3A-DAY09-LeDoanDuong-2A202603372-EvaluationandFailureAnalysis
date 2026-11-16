@@ -25,7 +25,7 @@ Gợi ý chia vai:
 
 | Người | Vai | Commit | Test đã thêm hoặc sửa |
 | --- | --- | --- | --- |
-| | | | |
+| Le Doan Duong | Orchestrator, security audit, group report | 2e75657 | tests/test_team_orchestrator.py; tests/test_team_security_audit.py |
 
 ## Cá nhân
 
